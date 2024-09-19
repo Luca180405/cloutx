@@ -1,517 +1,1037 @@
-[2024-09-19 21:14:30] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-09-19 21:14:30] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
-[2024-09-19 21:14:30] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-09-19 21:14:31] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-09-19 21:14:31] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-09-19 21:14:31] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-09-19 21:14:31] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470\
-[2024-09-19 21:14:31] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/cloutx/
-[2024-09-19 21:14:31] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-09-19 21:14:31] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-19 21:14:31] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/
-[2024-09-19 21:14:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943730852-kLrxgJ.tmp
-[2024-09-19 21:14:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/?simply_static_page=1
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/?simply_static_page=1
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:103] Filesize: 84015 bytes
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943730852-kLrxgJ.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/index.html
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:31] [class-ss-page.php:119] Checking Content Identical:6d6535401d9439798ac95ae2da296d4d12c2d0bd===. Value: FALSE
-[2024-09-19 21:14:31] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
-[2024-09-19 21:14:31] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-09-19 21:14:31] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-19 21:14:31] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:69] Total pages: 21; Pages remaining: 20
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx
-[2024-09-19 21:14:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 21
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9437e3768-jmdDBV.tmp
-[2024-09-19 21:14:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx?simply_static_page=2
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx?simply_static_page=2
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:103] Filesize: 352 bytes
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/cloutx/
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/sample-page/
-[2024-09-19 21:14:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 21
-[2024-09-19 21:14:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9437eb384-8wsk2M.tmp
-[2024-09-19 21:14:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/sample-page/?simply_static_page=3
-[2024-09-19 21:14:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/sample-page/?simply_static_page=3
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:103] Filesize: 59672 bytes
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9437eb384-8wsk2M.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/sample-page/index.html
-[2024-09-19 21:14:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:32] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
-[2024-09-19 21:14:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:32] [class-ss-page.php:119] Checking Content Identical:9b3e58d3b152fd9a31f0f6f5d0d2890614d91954===. Value: FALSE
-[2024-09-19 21:14:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/2024/09/19/hello-world/
-[2024-09-19 21:14:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 21
-[2024-09-19 21:14:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec94387922b-kfalnG.tmp
-[2024-09-19 21:14:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/2024/09/19/hello-world/?simply_static_page=4
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/2024/09/19/hello-world/?simply_static_page=4
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:103] Filesize: 76196 bytes
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:233] New filename for static page: /2024/09/19/hello-world/index.html
-[2024-09-19 21:14:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec94387922b-kfalnG.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/2024/09/19/hello-world/index.html
-[2024-09-19 21:14:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:33] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
-[2024-09-19 21:14:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:33] [class-ss-page.php:119] Checking Content Identical:07efd759a6e693c31d90ab60e22b55d5afbffc6f===. Value: FALSE
-[2024-09-19 21:14:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/author/luca/
-[2024-09-19 21:14:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 21
-[2024-09-19 21:14:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec94390fbb1-wqfuQK.tmp
-[2024-09-19 21:14:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/author/luca/?simply_static_page=5
-[2024-09-19 21:14:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/author/luca/?simply_static_page=5
-[2024-09-19 21:14:33] [class-ss-url-fetcher.php:103] Filesize: 63511 bytes
-[2024-09-19 21:14:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-09-19 21:14:33] [class-ss-url-fetcher.php:233] New filename for static page: /author/luca/index.html
-[2024-09-19 21:14:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec94390fbb1-wqfuQK.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/author/luca/index.html
-[2024-09-19 21:14:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:33] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
-[2024-09-19 21:14:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:33] [class-ss-page.php:119] Checking Content Identical:60b87845f2c2002142b2058bddca90554f107723===. Value: FALSE
-[2024-09-19 21:14:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/category/uncategorized/
-[2024-09-19 21:14:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 21
-[2024-09-19 21:14:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec94398d482-ikWfN8.tmp
-[2024-09-19 21:14:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/category/uncategorized/?simply_static_page=6
-[2024-09-19 21:14:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/category/uncategorized/?simply_static_page=6
-[2024-09-19 21:14:33] [class-ss-url-fetcher.php:103] Filesize: 56331 bytes
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943a01fef-2EcDme.tmp
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/category/uncategorized/
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:103] Filesize: 56331 bytes
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-09-19 21:14:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 21
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943a6981d-NsFOmc.tmp
-[2024-09-19 21:14:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=7
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=7
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943a6981d-NsFOmc.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:34] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-09-19 21:14:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 21
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943a7781a-ke1it3.tmp
-[2024-09-19 21:14:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=8
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=8
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943a7781a-ke1it3.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:34] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-09-19 21:14:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 21
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943a8354f-MIz0Rl.tmp
-[2024-09-19 21:14:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=9
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=9
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943a8354f-MIz0Rl.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:34] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/blocks/navigation/view.min.js
-[2024-09-19 21:14:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 21
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943a929ea-iU91hJ.tmp
-[2024-09-19 21:14:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/blocks/navigation/view.min.js?simply_static_page=10
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/blocks/navigation/view.min.js?simply_static_page=10
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943a929ea-iU91hJ.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-includes/blocks/navigation/view.min.js
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:34] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/feed/
-[2024-09-19 21:14:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 21
-[2024-09-19 21:14:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943a9fa1d-jpLXMS.tmp
-[2024-09-19 21:14:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/feed/?simply_static_page=11
-[2024-09-19 21:14:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/feed/?simply_static_page=11
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:103] Filesize: 1672 bytes
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943a9fa1d-jpLXMS.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/feed/index.xml
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:35] [class-ss-page.php:119] Checking Content Identical:b8af29a995b444ed39978e066b818537f5b590d8===. Value: FALSE
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/comments/feed/
-[2024-09-19 21:14:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 21
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943b0aa76-YNbpjJ.tmp
-[2024-09-19 21:14:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/comments/feed/?simply_static_page=12
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/comments/feed/?simply_static_page=12
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:103] Filesize: 1654 bytes
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943b0aa76-YNbpjJ.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/comments/feed/index.xml
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:35] [class-ss-page.php:119] Checking Content Identical:edec88f49d39ed28a645a26ba3e295ca089c0896===. Value: FALSE
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/blocks/navigation/style.min.css
-[2024-09-19 21:14:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 21
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943b67699-o12MOd.tmp
-[2024-09-19 21:14:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943b67699-o12MOd.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-includes/blocks/navigation/style.min.css
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:35] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/blocks/image/style.min.css
-[2024-09-19 21:14:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 21
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943b79bf8-1LcYW5.tmp
-[2024-09-19 21:14:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/blocks/image/style.min.css?simply_static_page=14
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/blocks/image/style.min.css?simply_static_page=14
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943b79bf8-1LcYW5.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-includes/blocks/image/style.min.css
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:35] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/
-[2024-09-19 21:14:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 21
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943b8ccc0-NM6YYb.tmp
-[2024-09-19 21:14:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/?simply_static_page=15
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/?simply_static_page=15
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:103] Filesize: 187370 bytes
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
-[2024-09-19 21:14:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943b8ccc0-NM6YYb.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-json/index.html
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:35] [class-ss-page.php:119] Checking Content Identical:882c35debd23b8c504e3979d73f8baaed7cb4be0===. Value: FALSE
-[2024-09-19 21:14:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/xmlrpc.php
-[2024-09-19 21:14:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 21
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cloutx/xmlrpc.php
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/js/dist/interactivity.min.js
-[2024-09-19 21:14:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 21
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943c03f74-yVAHti.tmp
-[2024-09-19 21:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943c03f74-yVAHti.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-includes/js/dist/interactivity.min.js
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:36] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-09-19 21:14:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 21
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943c113bc-9UdFKu.tmp
-[2024-09-19 21:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=18
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=18
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943c113bc-9UdFKu.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:36] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-09-19 21:14:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 21
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943c1ef33-9Ym01k.tmp
-[2024-09-19 21:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=19
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=19
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943c1ef33-9Ym01k.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:36] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-09-19 21:14:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 21
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943c2b8df-y2FC2v.tmp
-[2024-09-19 21:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=20
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=20
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943c2b8df-y2FC2v.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:36] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-09-19 21:14:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 21
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943c3a8d8-4m1TKe.tmp
-[2024-09-19 21:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=21
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=21
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943c3a8d8-4m1TKe.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:36] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
-[2024-09-19 21:14:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 21 pages/files
-[2024-09-19 21:14:36] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-09-19 21:14:36] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-19 21:14:36] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:69] Total pages: 31; Pages remaining: 10
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-admin/
-[2024-09-19 21:14:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 31
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943c49755-8HvHOB.tmp
-[2024-09-19 21:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-admin/?simply_static_page=22
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-admin/?simply_static_page=22
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/cloutx/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fcloutx%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:243] Creating a redirect page
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
-[2024-09-19 21:14:36] [class-ss-page.php:119] Checking Content Identical:5cd8760f82caeb79550e1a196c70a120d770b5b5===. Value: FALSE
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/sample-page/feed/
-[2024-09-19 21:14:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 31
-[2024-09-19 21:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943ca450a-KucLgl.tmp
-[2024-09-19 21:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/sample-page/feed/?simply_static_page=23
-[2024-09-19 21:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/sample-page/feed/?simply_static_page=23
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:103] Filesize: 739 bytes
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943ca450a-KucLgl.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/sample-page/feed/index.xml
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:37] [class-ss-page.php:119] Checking Content Identical:ef222867f0886465549f495d5334ce1a49be0f3a===. Value: FALSE
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/pages/2
-[2024-09-19 21:14:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 31
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943d0e09d-PgIgmf.tmp
-[2024-09-19 21:14:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/pages/2?simply_static_page=24
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/pages/2?simply_static_page=24
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:103] Filesize: 2881 bytes
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/2\index.html
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943d0e09d-PgIgmf.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-json/wp/v2/pages/2\index.html
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:37] [class-ss-page.php:119] Checking Content Identical:ad983f7db5f2997ada38e90a36c1f891db21baad===. Value: FALSE
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/oembed/1.0/embed
-[2024-09-19 21:14:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 31
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943d7f448-C9uojI.tmp
-[2024-09-19 21:14:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/oembed/1.0/embed?simply_static_page=25
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/oembed/1.0/embed?simply_static_page=25
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/js/comment-reply.min.js
-[2024-09-19 21:14:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 31
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943de1781-7yAIp6.tmp
-[2024-09-19 21:14:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/js/comment-reply.min.js?simply_static_page=26
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/js/comment-reply.min.js?simply_static_page=26
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943de1781-7yAIp6.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-includes/js/comment-reply.min.js
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:37] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/2024/09/19/hello-world/feed/
-[2024-09-19 21:14:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 31
-[2024-09-19 21:14:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943decdeb-qafhh7.tmp
-[2024-09-19 21:14:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/2024/09/19/hello-world/feed/?simply_static_page=27
-[2024-09-19 21:14:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/2024/09/19/hello-world/feed/?simply_static_page=27
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:103] Filesize: 1675 bytes
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:233] New filename for static page: /2024/09/19/hello-world/feed/index.xml
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943decdeb-qafhh7.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/2024/09/19/hello-world/feed/index.xml
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:38] [class-ss-page.php:119] Checking Content Identical:fda14ad7505bf4628df072b224378d126a6ed3e0===. Value: FALSE
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/css/dist/block-library/common.min.css
-[2024-09-19 21:14:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 31
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943e5a558-Hy8oJl.tmp
-[2024-09-19 21:14:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943e5a558-Hy8oJl.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-includes/css/dist/block-library/common.min.css
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:38] [class-ss-page.php:119] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/posts/1
-[2024-09-19 21:14:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 31
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943e65c43-drzhri.tmp
-[2024-09-19 21:14:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/posts/1?simply_static_page=29
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/posts/1?simply_static_page=29
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:103] Filesize: 1860 bytes
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943e65c43-drzhri.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-json/wp/v2/posts/1\index.html
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:38] [class-ss-page.php:119] Checking Content Identical:760b3aa499157eaef04652f92e85af81f1427e4a===. Value: FALSE
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/author/luca/feed/
-[2024-09-19 21:14:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 31
-[2024-09-19 21:14:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943ebf7eb-qjmpLG.tmp
-[2024-09-19 21:14:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/author/luca/feed/?simply_static_page=30
-[2024-09-19 21:14:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/author/luca/feed/?simply_static_page=30
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:103] Filesize: 1697 bytes
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:233] New filename for static page: /author/luca/feed/index.xml
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943ebf7eb-qjmpLG.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/author/luca/feed/index.xml
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:39] [class-ss-page.php:119] Checking Content Identical:934fb1da12a89936e0f3630468d9e38a42371f7e===. Value: FALSE
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/users/1
-[2024-09-19 21:14:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 31
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943f26877-aRV57G.tmp
-[2024-09-19 21:14:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/users/1?simply_static_page=31
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/users/1?simply_static_page=31
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:103] Filesize: 589 bytes
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/users/1\index.html
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943f26877-aRV57G.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470/wp-json/wp/v2/users/1\index.html
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-09-19 21:14:39] [class-ss-page.php:119] Checking Content Identical:59f4e6b06fcce71458d9564a579a029e0cd45a35===. Value: FALSE
-[2024-09-19 21:14:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 21 of 31 pages/files
-[2024-09-19 21:14:39] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-09-19 21:14:39] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-19 21:14:39] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 1
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fcloutx%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
-[2024-09-19 21:14:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cloutx/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fcloutx%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-09-19 21:14:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 31 of 32 pages/files
-[2024-09-19 21:14:39] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-09-19 21:14:39] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-09-19 21:14:39] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-09-19 21:14:39] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 0
-[2024-09-19 21:14:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 32 pages/files
-[2024-09-19 21:14:39] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-09-19 21:14:39] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-09-19 21:14:39] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-09-19 21:14:39] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec943f881ae-0bxjr2.tmp
-[2024-09-19 21:14:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/1726780480?simply_static_page=0
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/1726780480?simply_static_page=0
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:103] Filesize: 56331 bytes
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-09-19 21:14:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec943f881ae-0bxjr2.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726780470\404/index.html
-[2024-09-19 21:14:39] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-09-19 21:14:39] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-09-19 21:14:40] [class-ss-page.php:119] Checking Content Identical:d536912013a897a828511b12d3992acae70357cc===. Value: FALSE
-[2024-09-19 21:14:40] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-09-19 21:14:40] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
-[2024-09-19 21:14:40] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
-[2024-09-19 21:14:40] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
-[2024-09-19 21:14:40] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 27 of 27 files
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/sample-page
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/2024/09/19/hello-world
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/author/luca
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/twentytwentyfour/assets/images
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/twentytwentyfour/assets/images
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/twentytwentyfour/assets/images
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/blocks/navigation
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/feed
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/comments/feed
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/blocks/navigation
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/blocks/image
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/js/dist
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/inter
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/twentytwentyfour/assets/fonts/cardo
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-admin
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/sample-page/feed
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726780470/wp-json/wp/v2/pages/2/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages/2/index.html
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/js
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/2024/09/19/hello-world/feed
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/css/dist/block-library
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/posts
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726780470/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/posts/1/index.html
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/author/luca/feed
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/users
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726780470/wp-json/wp/v2/users/1/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/users/1/index.html
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:27. Processed Pages: 27
-[2024-09-19 21:14:40] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 27 of 27 files
-[2024-09-19 21:14:40] [trait-can-process-pages.php:110] Total pages: 27; Pages remaining: 0
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/cloutx\404\index.html
-[2024-09-19 21:14:40] [class-ss-transfer-files-locally-task.php:261] Success
-[2024-09-19 21:14:40] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://cloutx.de/" target="_blank">https://cloutx.de/</a>
-[2024-09-19 21:14:40] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-09-19 21:14:40] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-09-19 21:14:40] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-09-19 21:14:40] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-09-19 21:14:40] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-09-19 21:14:40] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-09-19 21:14:40] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-09-19 21:14:40] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:10
+[2024-09-19 22:00:28] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-09-19 22:00:28] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-09-19 22:00:28] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-09-19 22:00:28] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-09-19 22:00:28] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-09-19 22:00:28] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-09-19 22:00:28] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228\
+[2024-09-19 22:00:28] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/cloutx/
+[2024-09-19 22:00:28] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-09-19 22:00:28] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-19 22:00:28] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-19 22:00:28] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-09-19 22:00:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/
+[2024-09-19 22:00:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-09-19 22:00:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9efcdacce-EXvRDo.tmp
+[2024-09-19 22:00:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/?simply_static_page=33
+[2024-09-19 22:00:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/?simply_static_page=33
+[2024-09-19 22:00:29] [class-ss-url-fetcher.php:103] Filesize: 73190 bytes
+[2024-09-19 22:00:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:29] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-09-19 22:00:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9efcdacce-EXvRDo.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/index.html
+[2024-09-19 22:00:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:29] [class-ss-fetch-urls-task.php:159] Adding 53 URLs to the queue
+[2024-09-19 22:00:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:29] [class-ss-page.php:119] Checking Content Identical:c263a2949d4dbbeb249d11f176fe40620ea387d1===. Value: FALSE
+[2024-09-19 22:00:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-09-19 22:00:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-19 22:00:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-19 22:00:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-19 22:00:29] [class-ss-fetch-urls-task.php:69] Total pages: 53; Pages remaining: 52
+[2024-09-19 22:00:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/our-work/
+[2024-09-19 22:00:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 53
+[2024-09-19 22:00:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9efd94c7a-3P7qt1.tmp
+[2024-09-19 22:00:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/our-work/?simply_static_page=34
+[2024-09-19 22:00:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/our-work/?simply_static_page=34
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:103] Filesize: 58601 bytes
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:233] New filename for static page: /our-work/index.html
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9efd94c7a-3P7qt1.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/our-work/index.html
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:159] Adding 48 URLs to the queue
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:30] [class-ss-page.php:119] Checking Content Identical:9e1110764493f4dddd7780685da059d3b6b7e34e===. Value: FALSE
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/what-we-do/
+[2024-09-19 22:00:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 53
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9efe1e72a-DvKmuY.tmp
+[2024-09-19 22:00:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/what-we-do/?simply_static_page=35
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/what-we-do/?simply_static_page=35
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:103] Filesize: 58611 bytes
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:233] New filename for static page: /what-we-do/index.html
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9efe1e72a-DvKmuY.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/what-we-do/index.html
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:159] Adding 48 URLs to the queue
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:30] [class-ss-page.php:119] Checking Content Identical:37e25f398671d338690db41e8bad75ce9af5c691===. Value: FALSE
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/talent/
+[2024-09-19 22:00:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 53
+[2024-09-19 22:00:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9efe9905e-tZvkhl.tmp
+[2024-09-19 22:00:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/talent/?simply_static_page=36
+[2024-09-19 22:00:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/talent/?simply_static_page=36
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:103] Filesize: 58591 bytes
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:233] New filename for static page: /talent/index.html
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9efe9905e-tZvkhl.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/talent/index.html
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:159] Adding 48 URLs to the queue
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:31] [class-ss-page.php:119] Checking Content Identical:fdb9cab7d6b1cc0705f3d98ca727255f19e80877===. Value: FALSE
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/contact-us/
+[2024-09-19 22:00:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 53
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9eff29a45-rniAkI.tmp
+[2024-09-19 22:00:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/contact-us/?simply_static_page=37
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/contact-us/?simply_static_page=37
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:103] Filesize: 58573 bytes
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:233] New filename for static page: /contact-us/index.html
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9eff29a45-rniAkI.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/contact-us/index.html
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:159] Adding 48 URLs to the queue
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:31] [class-ss-page.php:119] Checking Content Identical:a822de4f97c2352304e34ea19853fa7f1902f207===. Value: FALSE
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/privacy-policy/
+[2024-09-19 22:00:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 53
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9eff9961d-OuwuhN.tmp
+[2024-09-19 22:00:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/privacy-policy/?simply_static_page=38
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/privacy-policy/?simply_static_page=38
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/cloutx/privacy-policy-2/
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:233] New filename for static page: /privacy-policy/index.html
+[2024-09-19 22:00:31] [class-ss-page.php:119] Checking Content Identical:5444e337ef19478ee318920a7ec98e831a0ded2f===. Value: FALSE
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/cookie-policy/
+[2024-09-19 22:00:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 53
+[2024-09-19 22:00:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9effedf1c-rw4W0x.tmp
+[2024-09-19 22:00:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/cookie-policy/?simply_static_page=39
+[2024-09-19 22:00:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/cookie-policy/?simply_static_page=39
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:103] Filesize: 58588 bytes
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /cookie-policy/index.html
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9effedf1c-rw4W0x.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/cookie-policy/index.html
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:159] Adding 48 URLs to the queue
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:32] [class-ss-page.php:119] Checking Content Identical:fe89288bbc2d6f35e19b83cb54fccdf7e40bd478===. Value: FALSE
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/terms-of-use/
+[2024-09-19 22:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 53
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f006b008-uOwJS2.tmp
+[2024-09-19 22:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/terms-of-use/?simply_static_page=40
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/terms-of-use/?simply_static_page=40
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:103] Filesize: 58583 bytes
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /terms-of-use/index.html
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f006b008-uOwJS2.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/terms-of-use/index.html
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:159] Adding 48 URLs to the queue
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:32] [class-ss-page.php:119] Checking Content Identical:2ced5039122cdf0fc5b4a7ba313e5807a6f3b4e1===. Value: FALSE
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/uploads/2024/09/CloutX-Full-Logo-2.png
+[2024-09-19 22:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 53
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f00d6755-GtBIDh.tmp
+[2024-09-19 22:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/uploads/2024/09/CloutX-Full-Logo-2.png?simply_static_page=41
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/uploads/2024/09/CloutX-Full-Logo-2.png?simply_static_page=41
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:103] Filesize: 19987 bytes
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/CloutX-Full-Logo-2.png
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f00d6755-GtBIDh.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/uploads/2024/09/CloutX-Full-Logo-2.png
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:32] [class-ss-page.php:119] Checking Content Identical:aa88f21f8f408d8d407469b158816c8ca041d5d4===. Value: FALSE
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/logos.webp
+[2024-09-19 22:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 53
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f00e290f-e3AseJ.tmp
+[2024-09-19 22:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/images/logos.webp?simply_static_page=42
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/logos.webp?simply_static_page=42
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:103] Filesize: 14160 bytes
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/images/logos.webp
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f00e290f-e3AseJ.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/images/logos.webp
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:32] [class-ss-page.php:119] Checking Content Identical:c428d181b09b3fbd2cf013236dc6033e672d970d===. Value: FALSE
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/image-1.webp
+[2024-09-19 22:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 53
+[2024-09-19 22:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f00ee953-FdFIuL.tmp
+[2024-09-19 22:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/images/image-1.webp?simply_static_page=43
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/image-1.webp?simply_static_page=43
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:103] Filesize: 10262 bytes
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/images/image-1.webp
+[2024-09-19 22:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f00ee953-FdFIuL.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/images/image-1.webp
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:1d230494b6f1cf736fcaa594721fc3a264fdcfde===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/image-2.webp
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0106753-JoP3ui.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/images/image-2.webp?simply_static_page=44
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/image-2.webp?simply_static_page=44
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 12192 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/images/image-2.webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0106753-JoP3ui.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/images/image-2.webp
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:ba46145286f1dfddda9450d35550955fcdb9f0fd===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/image-3.webp
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f01173eb-Xw87Ug.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/images/image-3.webp?simply_static_page=45
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/image-3.webp?simply_static_page=45
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 5190 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/images/image-3.webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f01173eb-Xw87Ug.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/images/image-3.webp
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:11f9c538fbd3afe92448ff174d83da0682d85996===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/testimonial_image.webp
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0126ada-icAZju.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/images/testimonial_image.webp?simply_static_page=46
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/testimonial_image.webp?simply_static_page=46
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 44556 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/images/testimonial_image.webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0126ada-icAZju.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/images/testimonial_image.webp
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:5be2568a6909085f8b3f6aae83ad86b32d13be8e===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/business_logo.webp
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f013221c-ypx8GE.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/images/business_logo.webp?simply_static_page=47
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/business_logo.webp?simply_static_page=47
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 7146 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/images/business_logo.webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f013221c-ypx8GE.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/images/business_logo.webp
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:48cefa2a02cc85e91c8ded7f959b75b748eae7fd===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/business_image.webp
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f01418e2-T6bjMJ.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/images/business_image.webp?simply_static_page=48
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/images/business_image.webp?simply_static_page=48
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 240336 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/images/business_image.webp
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f01418e2-T6bjMJ.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/images/business_image.webp
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:33f5d675c66e7c32bb9911e0ff42218b2b9f15ee===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/blocks/navigation/view.min.js
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f014db90-CLc2FM.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/blocks/navigation/view.min.js?simply_static_page=49
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/blocks/navigation/view.min.js?simply_static_page=49
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f014db90-CLc2FM.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-includes/blocks/navigation/view.min.js
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/uploads/2024/09/CloutX_1_512x512.jpg
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f015bd5c-nK8Hcy.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/uploads/2024/09/CloutX_1_512x512.jpg?simply_static_page=50
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/uploads/2024/09/CloutX_1_512x512.jpg?simply_static_page=50
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 24032 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/CloutX_1_512x512.jpg
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f015bd5c-nK8Hcy.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/uploads/2024/09/CloutX_1_512x512.jpg
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:be4497f7d3dd3fa69bb57d8e8163ee0a33bdb962===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/feed/
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f01687b0-EO5nds.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/feed/?simply_static_page=51
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/feed/?simply_static_page=51
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 999 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html;charset=UTF-8
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f01687b0-EO5nds.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/feed/index.html
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:75c698e204354de334aab1b4cf0b20b6943dc7ab===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/comments/feed/
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0179405-iTNEGQ.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/comments/feed/?simply_static_page=52
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/comments/feed/?simply_static_page=52
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 1026 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html;charset=UTF-8
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0179405-iTNEGQ.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/comments/feed/index.html
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:3019baf27b9d61781a80064298e35a7bcee4f27d===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/blocks/navigation/style.min.css
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f018b1ed-ZQ3Yog.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/blocks/navigation/style.min.css?simply_static_page=53
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/blocks/navigation/style.min.css?simply_static_page=53
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f018b1ed-ZQ3Yog.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-includes/blocks/navigation/style.min.css
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/blocks/social-links/style.min.css
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0198299-Faqd6t.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/blocks/social-links/style.min.css?simply_static_page=54
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/blocks/social-links/style.min.css?simply_static_page=54
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 11600 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0198299-Faqd6t.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-includes/blocks/social-links/style.min.css
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:d31bfce420030e49e51a5714f07ff2c31b812848===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/style.css
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f01ab052-7PhFUl.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/style.css?simply_static_page=55
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/style.css?simply_static_page=55
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 1649 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/style.css
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f01ab052-7PhFUl.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/style.css
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:31ee21eedb03a0460a846afadb09c318076b0485===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f01b7057-WBYqwD.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/?simply_static_page=56
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/?simply_static_page=56
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 187370 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f01b7057-WBYqwD.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-json/index.html
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:f21504a39148ff42d1b2fa8c1d4730686fd38338===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/xmlrpc.php
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cloutx/xmlrpc.php
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-includes/js/dist/interactivity.min.js
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f01e1609-LjYiZi.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-includes/js/dist/interactivity.min.js?simply_static_page=58
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-includes/js/dist/interactivity.min.js?simply_static_page=58
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f01e1609-LjYiZi.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-includes/js/dist/interactivity.min.js
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:33] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_200.ttf
+[2024-09-19 22:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 53
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f01eca54-x2pXVo.tmp
+[2024-09-19 22:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_200.ttf?simply_static_page=59
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_200.ttf?simply_static_page=59
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:103] Filesize: 57896 bytes
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_normal_200.ttf
+[2024-09-19 22:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f01eca54-x2pXVo.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_normal_200.ttf
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:9e80f3a58df781f02bcc9547654fd25ff9c42a49===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_300.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0202c02-bDUXPZ.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_300.ttf?simply_static_page=60
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_300.ttf?simply_static_page=60
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 57820 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_normal_300.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0202c02-bDUXPZ.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_normal_300.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:9600b6bc8970090fc07fee518acdd8c6be1fb786===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_500.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f021008b-mj9WzR.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_500.ttf?simply_static_page=61
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_500.ttf?simply_static_page=61
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 57736 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_normal_500.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f021008b-mj9WzR.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_normal_500.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:b7f98444ddcf0db8b8d07dab317cef6c154d748a===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_600.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f021a460-zfOQBP.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_600.ttf?simply_static_page=62
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_600.ttf?simply_static_page=62
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 57812 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_normal_600.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f021a460-zfOQBP.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_normal_600.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:4c51809302b5ccfe357c2d3cef713e196c2bdc3a===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_700.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f02248d4-hQsxhF.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_700.ttf?simply_static_page=63
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_normal_700.ttf?simply_static_page=63
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 57724 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_normal_700.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f02248d4-hQsxhF.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_normal_700.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:34256bc34281fd98b79f1831caffa5fb488fbbcb===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_700.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f022ed5e-9kU5zm.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_700.ttf?simply_static_page=64
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_700.ttf?simply_static_page=64
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 60396 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_italic_700.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f022ed5e-9kU5zm.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_italic_700.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:aa259665508c31d4cbc53d8768d55392faac1e87===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_300.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f023db83-hNCUfS.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_300.ttf?simply_static_page=65
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_300.ttf?simply_static_page=65
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 64216 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_italic_300.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f023db83-hNCUfS.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_italic_300.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:61b106df789f418b4f4a3b95796670cba5171e9b===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_600.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0247c28-XQswg6.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_600.ttf?simply_static_page=66
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_600.ttf?simply_static_page=66
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 60512 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_italic_600.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0247c28-XQswg6.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_italic_600.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:e85d1f78e12de213c818396438b5d735d82bbbd4===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_200.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0255711-FVLVXy.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_200.ttf?simply_static_page=67
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_200.ttf?simply_static_page=67
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 64584 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_italic_200.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0255711-FVLVXy.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_italic_200.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:979d60ef58c9cd1fb67675121335f2ed44a58096===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_500.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f025f4c8-JRBd5R.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_500.ttf?simply_static_page=68
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/sora_italic_500.ttf?simply_static_page=68
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 60512 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/sora_italic_500.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f025f4c8-JRBd5R.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/sora_italic_500.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:67432fb5b4347de6c9c03d7590156294d3581429===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_normal_400.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0269305-mvjzew.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_normal_400.ttf?simply_static_page=69
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_normal_400.ttf?simply_static_page=69
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 215516 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/pt-serif_normal_400.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0269305-mvjzew.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/pt-serif_normal_400.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:9ea0ea4d9ed8fda292db458366dbd9af013eced7===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_italic_400.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f02733e9-6AyXgJ.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_italic_400.ttf?simply_static_page=70
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_italic_400.ttf?simply_static_page=70
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 232264 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/pt-serif_italic_400.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f02733e9-6AyXgJ.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/pt-serif_italic_400.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:ab129b4c762edcc4724d46ee655f461bfc98bdaa===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_normal_700.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f027d80b-MZ2zWS.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_normal_700.ttf?simply_static_page=71
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_normal_700.ttf?simply_static_page=71
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 196092 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/pt-serif_normal_700.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f027d80b-MZ2zWS.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/pt-serif_normal_700.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:581675fd5d3734c5ee1506359190ce467c477e18===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_italic_700.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0287d71-f3scST.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_italic_700.ttf?simply_static_page=72
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/pt-serif_italic_700.ttf?simply_static_page=72
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 193752 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/pt-serif_italic_700.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0287d71-f3scST.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/pt-serif_italic_700.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:f440f00aae9cf53d7f40d4feb41fa380d063d502===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_normal_200.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f029279f-0mAQ99.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_normal_200.ttf?simply_static_page=73
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_normal_200.ttf?simply_static_page=73
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 72428 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/fraunces_normal_200.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f029279f-0mAQ99.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/fraunces_normal_200.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:86b6a245a7a10e52a2bdf2d2a9f2cb0bcd393f29===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_normal_300.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f029cdd3-SwBvLw.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_normal_300.ttf?simply_static_page=74
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_normal_300.ttf?simply_static_page=74
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 72444 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/fraunces_normal_300.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f029cdd3-SwBvLw.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/fraunces_normal_300.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:a92349ab59aba568b459c09390082dd7902e1b57===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_normal_600.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f02a6e72-R35XB5.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_normal_600.ttf?simply_static_page=75
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_normal_600.ttf?simply_static_page=75
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 72504 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/fraunces_normal_600.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f02a6e72-R35XB5.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/fraunces_normal_600.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:33670b84277ac9bd7ba142550fc6968ce9d30305===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_italic_600.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f02b0d8e-UbCxQy.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_italic_600.ttf?simply_static_page=76
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_italic_600.ttf?simply_static_page=76
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 86328 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/fraunces_italic_600.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f02b0d8e-UbCxQy.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/fraunces_italic_600.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:b100264913038863e52f60edcb010ad6b6e1062f===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_italic_200.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f02bc9b7-FKOp8d.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_italic_200.ttf?simply_static_page=77
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_italic_200.ttf?simply_static_page=77
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 86280 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/fraunces_italic_200.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f02bc9b7-FKOp8d.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/fraunces_italic_200.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:70fca4f54f5516d57574d9eabbca87c3297bb879===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_italic_300.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f02c68da-OcrU3C.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_italic_300.ttf?simply_static_page=78
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/fraunces_italic_300.ttf?simply_static_page=78
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 86252 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/fraunces_italic_300.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f02c68da-OcrU3C.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/fraunces_italic_300.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:085dbebba152fba67d33e9b39fc4ec65dc25e322===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_normal_300.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f02d1585-rNR3RW.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_normal_300.ttf?simply_static_page=79
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_normal_300.ttf?simply_static_page=79
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 107480 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/crimson-pro_normal_300.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f02d1585-rNR3RW.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/crimson-pro_normal_300.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:fa3bed391e9cfebf6d4c76e82077c78a642514fb===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_italic_300.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f02dc04e-HtfxrZ.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_italic_300.ttf?simply_static_page=80
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_italic_300.ttf?simply_static_page=80
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 109480 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/crimson-pro_italic_300.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f02dc04e-HtfxrZ.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/crimson-pro_italic_300.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:34] [class-ss-page.php:119] Checking Content Identical:a0aff4112ce205cadfa1673d719001df370d2574===. Value: FALSE
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_normal_600.ttf
+[2024-09-19 22:00:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 53
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f02e6cea-RfQLLj.tmp
+[2024-09-19 22:00:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_normal_600.ttf?simply_static_page=81
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_normal_600.ttf?simply_static_page=81
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:103] Filesize: 107592 bytes
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/crimson-pro_normal_600.ttf
+[2024-09-19 22:00:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f02e6cea-RfQLLj.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/crimson-pro_normal_600.ttf
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:35] [class-ss-page.php:119] Checking Content Identical:d2e90eb5b025e8a235180127f841a32e22bcc49d===. Value: FALSE
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_italic_600.ttf
+[2024-09-19 22:00:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 53
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f03027fa-sumZym.tmp
+[2024-09-19 22:00:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_italic_600.ttf?simply_static_page=82
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/themes/lativ/assets/fonts/crimson-pro_italic_600.ttf?simply_static_page=82
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:103] Filesize: 109332 bytes
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/lativ/assets/fonts/crimson-pro_italic_600.ttf
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f03027fa-sumZym.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/themes/lativ/assets/fonts/crimson-pro_italic_600.ttf
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:35] [class-ss-page.php:119] Checking Content Identical:c6092c79440055f17ff6bb5b6835c883ed99f02e===. Value: FALSE
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/uploads/fonts/JTUSjIg69CK48gW7PXooxWtrygbi49c.woff2
+[2024-09-19 22:00:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 53
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f030c65b-WSbEsy.tmp
+[2024-09-19 22:00:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/uploads/fonts/JTUSjIg69CK48gW7PXooxWtrygbi49c.woff2?simply_static_page=83
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/uploads/fonts/JTUSjIg69CK48gW7PXooxWtrygbi49c.woff2?simply_static_page=83
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:103] Filesize: 20776 bytes
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/JTUSjIg69CK48gW7PXooxWtrygbi49c.woff2
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f030c65b-WSbEsy.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/uploads/fonts/JTUSjIg69CK48gW7PXooxWtrygbi49c.woff2
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:35] [class-ss-page.php:119] Checking Content Identical:f047bcd2bef3dbe9a1a5eece422d2f8ba5d5a4b0===. Value: FALSE
+[2024-09-19 22:00:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 53 pages/files
+[2024-09-19 22:00:35] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-19 22:00:35] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-19 22:00:35] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:69] Total pages: 64; Pages remaining: 13
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/uploads/fonts/HTxqL289NzCGg4MzN6KJ7eW6OY6P_x7yx3A.woff2
+[2024-09-19 22:00:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 64
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0319aa8-FYI4Kp.tmp
+[2024-09-19 22:00:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/uploads/fonts/HTxqL289NzCGg4MzN6KJ7eW6OY6P_x7yx3A.woff2?simply_static_page=84
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/uploads/fonts/HTxqL289NzCGg4MzN6KJ7eW6OY6P_x7yx3A.woff2?simply_static_page=84
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:103] Filesize: 30736 bytes
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/HTxqL289NzCGg4MzN6KJ7eW6OY6P_x7yx3A.woff2
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0319aa8-FYI4Kp.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/uploads/fonts/HTxqL289NzCGg4MzN6KJ7eW6OY6P_x7yx3A.woff2
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:35] [class-ss-page.php:119] Checking Content Identical:a7419629fd488cc607ea85a3bc7b6e323b9ae6a5===. Value: FALSE
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-content/uploads/fonts/i7dPIFZ9Zz-WBtRtedDbUEN2RFq7AwU.woff2
+[2024-09-19 22:00:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 64
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0325d76-jxBVSd.tmp
+[2024-09-19 22:00:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-content/uploads/fonts/i7dPIFZ9Zz-WBtRtedDbUEN2RFq7AwU.woff2?simply_static_page=85
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-content/uploads/fonts/i7dPIFZ9Zz-WBtRtedDbUEN2RFq7AwU.woff2?simply_static_page=85
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:103] Filesize: 11432 bytes
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/i7dPIFZ9Zz-WBtRtedDbUEN2RFq7AwU.woff2
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0325d76-jxBVSd.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-content/uploads/fonts/i7dPIFZ9Zz-WBtRtedDbUEN2RFq7AwU.woff2
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:35] [class-ss-page.php:119] Checking Content Identical:965d90ab6173c48ad7c2a72682b2d1a323dbb57d===. Value: FALSE
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/pages/17
+[2024-09-19 22:00:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 64
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f032fa49-aHk81o.tmp
+[2024-09-19 22:00:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/pages/17?simply_static_page=86
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/pages/17?simply_static_page=86
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:103] Filesize: 1461 bytes
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/17\index.html
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f032fa49-aHk81o.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/17\index.html
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:35] [class-ss-page.php:119] Checking Content Identical:4ed92b5d35efea3747efa7c780c6284e8d5282d1===. Value: FALSE
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/oembed/1.0/embed
+[2024-09-19 22:00:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 64
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0386b25-7S6yvc.tmp
+[2024-09-19 22:00:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/oembed/1.0/embed?simply_static_page=87
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/oembed/1.0/embed?simply_static_page=87
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/pages/20
+[2024-09-19 22:00:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 64
+[2024-09-19 22:00:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f03daf4d-O5RWgN.tmp
+[2024-09-19 22:00:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/pages/20?simply_static_page=88
+[2024-09-19 22:00:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/pages/20?simply_static_page=88
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:103] Filesize: 1467 bytes
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/20\index.html
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f03daf4d-O5RWgN.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/20\index.html
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:36] [class-ss-page.php:119] Checking Content Identical:d173b94bcf1e1a3256f1149d2f041931556c7327===. Value: FALSE
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/pages/22
+[2024-09-19 22:00:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 64
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f044fa70-qIfJkq.tmp
+[2024-09-19 22:00:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/pages/22?simply_static_page=89
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/pages/22?simply_static_page=89
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:103] Filesize: 1455 bytes
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/22\index.html
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f044fa70-qIfJkq.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/22\index.html
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:36] [class-ss-page.php:119] Checking Content Identical:a61eed2eb107358ef18a24cdad6d64785e04031a===. Value: FALSE
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/pages/42
+[2024-09-19 22:00:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 64
+[2024-09-19 22:00:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f04a8e05-cHNUUD.tmp
+[2024-09-19 22:00:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/pages/42?simply_static_page=90
+[2024-09-19 22:00:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/pages/42?simply_static_page=90
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:103] Filesize: 1467 bytes
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/42\index.html
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f04a8e05-cHNUUD.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/42\index.html
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:37] [class-ss-page.php:119] Checking Content Identical:2a17b67d8aace6575ed1f7b845b1279bb4f2177f===. Value: FALSE
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/privacy-policy-2/
+[2024-09-19 22:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 64
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f050be85-fYZN5P.tmp
+[2024-09-19 22:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/privacy-policy-2/?simply_static_page=91
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/privacy-policy-2/?simply_static_page=91
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:103] Filesize: 58599 bytes
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /privacy-policy-2/index.html
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f050be85-fYZN5P.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/privacy-policy-2/index.html
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:159] Adding 49 URLs to the queue
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:37] [class-ss-page.php:119] Checking Content Identical:b54b292fbcf582e2f34e7f9a85b1c56caaecf6e1===. Value: FALSE
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/pages/50
+[2024-09-19 22:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 64
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0581af4-wuunQl.tmp
+[2024-09-19 22:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/pages/50?simply_static_page=92
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/pages/50?simply_static_page=92
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:103] Filesize: 1476 bytes
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/50\index.html
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0581af4-wuunQl.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/50\index.html
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:37] [class-ss-page.php:119] Checking Content Identical:b517a79d96512f87cfda47b09186da545227f75a===. Value: FALSE
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/pages/52
+[2024-09-19 22:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 64
+[2024-09-19 22:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f05e0913-bqy8th.tmp
+[2024-09-19 22:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/pages/52?simply_static_page=93
+[2024-09-19 22:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/pages/52?simply_static_page=93
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:103] Filesize: 1473 bytes
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/52\index.html
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f05e0913-bqy8th.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/52\index.html
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:38] [class-ss-page.php:119] Checking Content Identical:3959bd29fa237c4a26b035f3ae02f152be14a04a===. Value: FALSE
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/feed/index.xml
+[2024-09-19 22:00:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 64
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f064b110-veza68.tmp
+[2024-09-19 22:00:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/feed/index.xml?simply_static_page=94
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/feed/index.xml?simply_static_page=94
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:103] Filesize: 1614 bytes
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f064b110-veza68.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/feed/index.xml
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:38] [class-ss-page.php:119] Checking Content Identical:48770f7972ce69f25a65dfb7ffeb9bbc933d67f7===. Value: FALSE
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/comments/
+[2024-09-19 22:00:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 64
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0655ff4-Gkmj5P.tmp
+[2024-09-19 22:00:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/comments/?simply_static_page=95
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/comments/?simply_static_page=95
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:103] Filesize: 1002 bytes
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html;charset=UTF-8
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:233] New filename for static page: /comments/index.html
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0655ff4-Gkmj5P.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/comments/index.html
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:38] [class-ss-page.php:119] Checking Content Identical:ac435e6a2485d2551464f83e9693a8535d32655c===. Value: FALSE
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/comments/feed/index.xml
+[2024-09-19 22:00:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 64
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f0668e78-podvxi.tmp
+[2024-09-19 22:00:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/comments/feed/index.xml?simply_static_page=96
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/comments/feed/index.xml?simply_static_page=96
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:103] Filesize: 1608 bytes
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f0668e78-podvxi.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/comments/feed/index.xml
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:38] [class-ss-page.php:119] Checking Content Identical:b67bbbaee929c6a500cc66846b7df5ef57312359===. Value: FALSE
+[2024-09-19 22:00:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 51 of 64 pages/files
+[2024-09-19 22:00:38] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-19 22:00:38] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-19 22:00:38] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:69] Total pages: 65; Pages remaining: 1
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cloutx/wp-json/wp/v2/pages/48
+[2024-09-19 22:00:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 65
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f067bc2e-pvQ2NX.tmp
+[2024-09-19 22:00:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/wp-json/wp/v2/pages/48?simply_static_page=97
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/wp-json/wp/v2/pages/48?simply_static_page=97
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:103] Filesize: 1483 bytes
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/48\index.html
+[2024-09-19 22:00:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f067bc2e-pvQ2NX.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/48\index.html
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-19 22:00:38] [class-ss-page.php:119] Checking Content Identical:804e0a18f40c78e490b7ff2fc4e50b3a775a41f1===. Value: FALSE
+[2024-09-19 22:00:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 64 of 65 pages/files
+[2024-09-19 22:00:38] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-19 22:00:38] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-19 22:00:38] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-19 22:00:38] [class-ss-fetch-urls-task.php:69] Total pages: 65; Pages remaining: 0
+[2024-09-19 22:00:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 65 of 65 pages/files
+[2024-09-19 22:00:39] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-09-19 22:00:39] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-09-19 22:00:39] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-09-19 22:00:39] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-09-19 22:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\lucad\AppData\Local\Temp/66ec9f07039ad-NbGncN.tmp
+[2024-09-19 22:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cloutx/1726783240?simply_static_page=0
+[2024-09-19 22:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cloutx/1726783240?simply_static_page=0
+[2024-09-19 22:00:39] [class-ss-url-fetcher.php:103] Filesize: 37123 bytes
+[2024-09-19 22:00:39] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-09-19 22:00:39] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-09-19 22:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\lucad\AppData\Local\Temp/66ec9f07039ad-NbGncN.tmp to C:\xampp\htdocs\cloutx/wp-content/uploads\simply-static\temp-files/simply-static-1-1726783228\404/index.html
+[2024-09-19 22:00:39] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-09-19 22:00:39] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-09-19 22:00:39] [class-ss-page.php:119] Checking Content Identical:afa3eefec5b6f6f36e49d22414c8f579bcda39ec===. Value: FALSE
+[2024-09-19 22:00:39] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-09-19 22:00:39] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-09-19 22:00:39] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-09-19 22:00:39] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-09-19 22:00:39] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 50 of 63 files
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/our-work
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/what-we-do
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/talent
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/contact-us
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/privacy-policy
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/cookie-policy
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/terms-of-use
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/uploads/2024/09
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/images
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/images
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/images
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/images
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/images
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/images
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/images
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/blocks/navigation
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/uploads/2024/09
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/feed
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/comments/feed
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/blocks/navigation
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/blocks/social-links
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-includes/js/dist
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/themes/lativ/assets/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/uploads/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:63. Processed Pages: 50
+[2024-09-19 22:00:39] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 63 files
+[2024-09-19 22:00:39] [trait-can-process-pages.php:110] Total pages: 63; Pages remaining: 13
+[2024-09-19 22:00:39] [class-ss-archive-creation-job.php:181] We're not done with the transfer_files_locally task yet
+[2024-09-19 22:00:39] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-09-19 22:00:39] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-09-19 22:00:39] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 13 of 63 files
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/uploads/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-content/uploads/fonts
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/17/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages/17/index.html
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/20/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages/20/index.html
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/22/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages/22/index.html
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/42/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages/42/index.html
+[2024-09-19 22:00:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/privacy-policy-2
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/50/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages/50/index.html
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/52/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages/52/index.html
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/feed
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/comments
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/comments/feed
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/cloutx/wp-content/uploads/simply-static/temp-files/simply-static-1-1726783228/wp-json/wp/v2/pages/48/index.html to C:/xampp/htdocs/cloutx/wp-json/wp/v2/pages/48/index.html
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:63. Processed Pages: 63
+[2024-09-19 22:00:40] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 63 of 63 files
+[2024-09-19 22:00:40] [trait-can-process-pages.php:110] Total pages: 63; Pages remaining: 0
+[2024-09-19 22:00:40] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-09-19 22:00:40] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://cloutx.de/" target="_blank">https://cloutx.de/</a>
+[2024-09-19 22:00:40] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-09-19 22:00:40] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-09-19 22:00:40] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-09-19 22:00:40] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-09-19 22:00:40] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-09-19 22:00:40] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-09-19 22:00:40] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-09-19 22:00:40] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:12
